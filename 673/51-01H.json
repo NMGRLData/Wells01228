@@ -1,0 +1,162 @@
+{
+    "acquisition_software": "pychron 19.6",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.0",
+    "comment": "H:7 Muscovite, 9.95 mg",
+    "commit": "c83260da12b3e11ea7fb973d086da8985b088112",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": 5942297891161105181,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_reduction_software": "pychron 19.6",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01205
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1045
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.9831
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2020-01-08T09:37:48",
+                "title": "iServer Hum.",
+                "value": 14.3
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2020-01-08T12:47:03",
+                "title": "Building",
+                "value": 100.6
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2020-01-08T06:16:26",
+                "title": "Lab",
+                "value": 87.3
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2020-01-08T12:10:31",
+                "title": "iServer Temp.",
+                "value": 72.5
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2020-01-08T12:46:56",
+                "title": "Coolant",
+                "value": 16.0
+            }
+        ]
+    },
+    "experiment_queue_name": "LoadF0007",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_furnace.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "67351",
+    "increment": 7,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-306",
+    "irradiation_level": "H",
+    "irradiation_position": 7,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "latitude": 0.0,
+    "lithology": null,
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": 0.0,
+    "mass_spectrometer": "felix",
+    "material": "Muscovite",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "Wells, M",
+    "project": "Wells01228",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Wells01228",
+    "rlocation": "",
+    "sample": "WB18TM-22",
+    "source": {
+        "emission": 798.392,
+        "trap": 249.054
+    },
+    "spec_sha": "9839df14193423094cb9c2b3f03e4ee25da166e9",
+    "timestamp": "2020-01-08T12:50:37.770538",
+    "tripped_conditional": null,
+    "unit": null,
+    "username": "",
+    "uuid": "d976548e-04eb-43d7-a826-45c814d1258f",
+    "whiff_result": null
+}
