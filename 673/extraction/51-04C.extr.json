@@ -1,0 +1,35 @@
+{
+    "beam_diameter": "",
+    "cleanup_duration": 30.0,
+    "commit": "ccc992de5adca8093a04038dc745e290713c885d",
+    "extract_device": "NMGRL Furnace",
+    "extract_duration": 240.0,
+    "extract_units": "watts",
+    "extract_value": 300.0,
+    "grain_polygons": [],
+    "light_value": 0,
+    "load_holder": "",
+    "load_name": "F0007",
+    "measured_response": "Jjy8TgAAAAAAwDw6AACWQ85PAEAAAJZDJzGAQAAAlkMiOsBAAACWQxguAEEAAJZDFDsgQQAAlkM/QUBBAACWQ2RBYEEAAJZDAiOAQQAAlkNxJZBBAACWQxsnoEEAAJZDQiiwQQAAlkOqKMBBAACWQwor0EEAAJZD",
+    "pattern": "",
+    "pid": "HO,15;XP,444;TI,283;TD,47;LB,708;HB,100",
+    "positions": [
+        {
+            "is_degas": false,
+            "position": "3",
+            "x": null,
+            "y": null,
+            "z": null
+        }
+    ],
+    "post_cleanup_duration": 0.0,
+    "pre_cleanup_duration": 0.0,
+    "ramp_duration": 0.0,
+    "ramp_rate": 0.0,
+    "requested_output": "Jjy8TgAAAAAAwDw6ZmamQM5PAEAzM6NAJzGAQDMzo0AiOsBAMzOjQBguAEEzM6NAFDsgQTMzo0A/QUBBMzOjQGRBYEEzM6NAAiOAQTMzo0BxJZBBZmamQBsnoEFmZqZAQiiwQTMzo0CqKMBBMzOjQAor0EEzM6NA",
+    "setpoint_stream": "Jjy8TgAAAAAAwDw6AACWQ85PAEAAAJZDJzGAQAAAlkMiOsBAAACWQxguAEEAAJZDFDsgQQAAlkM/QUBBAACWQ2RBYEEAAJZDAiOAQQAAlkNxJZBBAACWQxsnoEEAAJZDQiiwQQAAlkOqKMBBAACWQwor0EEAAJZD",
+    "snapshots": [],
+    "tray": "",
+    "videos": [],
+    "weight": 1.57
+}
